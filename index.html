@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="SHAHZAD AI — a personal YouTube channel monitoring dashboard with channel insights and activity alerts.">
+<title>SHAHZAD AI — YouTube Channel Manager</title>
+<style>
+:root{--bg:#080d19;--panel:#101a2d;--line:#24334e;--text:#f4f7ff;--muted:#aab7ce;--blue:#54a8ff;--gold:#f3c66b}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#17345a 0,transparent 42%),var(--bg);color:var(--text);font-family:Inter,Segoe UI,Arial,sans-serif;line-height:1.6}
+a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}.wrap{width:min(1100px,92%);margin:auto}
+nav{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff12}.brand{font-size:20px;font-weight:850;letter-spacing:1.5px}.brand span{color:var(--gold)}.navlinks{display:flex;gap:22px;color:var(--muted);font-size:14px}
+.hero{padding:90px 0 76px;display:grid;grid-template-columns:1.15fr .85fr;gap:42px;align-items:center}.eyebrow{color:var(--gold);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:12px}
+h1{font-size:clamp(42px,6vw,68px);line-height:1.06;margin:16px 0 20px;letter-spacing:-2px}.hero p{color:var(--muted);font-size:18px;max-width:620px}.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}.btn{padding:12px 19px;border-radius:10px;font-weight:700;border:1px solid var(--line);display:inline-block}.primary{background:linear-gradient(120deg,#318be8,#6dbaff);color:#06101e;border:0}.secondary{color:var(--text);background:#ffffff08}
+.preview{background:linear-gradient(145deg,#14233b,#0d1525);border:1px solid var(--line);padding:24px;border-radius:20px;box-shadow:0 25px 80px #0007}.preview-top{display:flex;justify-content:space-between;color:var(--muted);font-size:13px}.live{color:#7ee0ad}.metric-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px}.metric{background:#ffffff08;border:1px solid #ffffff10;border-radius:13px;padding:16px}.metric small{color:var(--muted)}.metric strong{display:block;font-size:25px;margin-top:5px}.chart{height:95px;margin-top:18px;border-radius:12px;background:linear-gradient(180deg,#318be833,transparent);position:relative;overflow:hidden}.chart svg{width:100%;height:100%}
+section{padding:45px 0}.section-title{text-align:center;font-size:32px;margin:0 0 12px}.sub{text-align:center;color:var(--muted);max-width:650px;margin:0 auto 30px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:23px}.ico{font-size:25px}.card h3{margin:12px 0 7px}.card p{color:var(--muted);margin:0;font-size:14px}
+.note{margin:30px 0;background:#18243a;border:1px solid #34435c;border-radius:14px;padding:18px;color:var(--muted);font-size:13px}footer{border-top:1px solid #ffffff16;padding:25px 0;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding:60px 0}.cards{grid-template-columns:1fr}.navlinks{gap:12px}.navlinks a:nth-child(2){display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><a class="brand" href="./">SHAHZAD <span>AI</span></a><div class="navlinks"><a href="#features">Features</a><a href="#about">About</a><a href="privacy.html">Privacy</a></div></nav>
+<main>
+<div class="hero">
+<div><div class="eyebrow">Your channel. Your insights.</div><h1>Understand your channel. Stay one step ahead.</h1><p>SHAHZAD AI is a personal YouTube channel monitoring project designed to bring useful channel statistics, recent activity and desktop alerts together in one simple place.</p><div class="actions"><a class="btn primary" href="#features">Explore features</a><a class="btn secondary" href="privacy.html">Privacy policy</a></div></div>
+<div class="preview"><div class="preview-top"><strong>CHANNEL OVERVIEW</strong><span class="live">● Preview</span></div><div class="metric-grid"><div class="metric"><small>Subscribers</small><strong>—</strong></div><div class="metric"><small>Total views</small><strong>—</strong></div><div class="metric"><small>Recent videos</small><strong>—</strong></div><div class="metric"><small>New activity</small><strong>—</strong></div></div><div class="chart"><svg viewBox="0 0 500 100" preserveAspectRatio="none"><path d="M0 78 C45 72 55 84 100 59 S165 70 205 45 S275 65 315 30 S390 48 430 17 S470 28 500 8" fill="none" stroke="#62b5ff" stroke-width="3"/></svg></div><small style="color:var(--muted)">Illustrative design preview — not live account data.</small></div>
+</div>
+<section id="features"><h2 class="section-title">Made for channel awareness</h2><p class="sub">A focused set of tools for keeping an eye on the activity that matters.</p><div class="cards">
+<article class="card"><div class="ico">📊</div><h3>Channel insights</h3><p>View available channel statistics and recent video information after connecting an authorized YouTube account.</p></article>
+<article class="card"><div class="ico">🔔</div><h3>Activity alerts</h3><p>Get desktop notifications for detected new uploads, comments and selected view-count changes while the app is running.</p></article>
+<article class="card"><div class="ico">🛡️</div><h3>Personal-first setup</h3><p>The current desktop app uses Google sign-in and keeps its monitoring state and authorization token on your computer.</p></article>
+</div></section>
+<section id="about"><h2 class="section-title">Independent project</h2><p class="sub">SHAHZAD AI is an independent personal project. It is not affiliated with, endorsed by, or officially connected to Google or YouTube. YouTube features depend on Google's APIs and the permissions you grant.</p><div class="note">The current desktop monitor is a read-only companion: it does not upload videos, reply to comments, edit channel content, or guarantee real-time alerts. Your computer and internet connection must remain active for monitoring.</div></section>
+</main>
+<footer><span>© 2026 SHAHZAD AI</span><span><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms</a> · <a href="mailto:shahzadkhan40072@gmail.com">Contact</a></span></footer>
+</div>
+</body></html>
